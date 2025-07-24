@@ -19,10 +19,6 @@ from xml.etree.ElementInclude import include
 from django.contrib import admin
 from django.urls import path, include
 
-# Método 1 menos indicado por questão de organização
-#from core.views import  index, contato
-from django1.urls import path, include
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('', index), # Método 1
